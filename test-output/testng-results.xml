@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" total="14" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro Steps</H4><br>null]]>
+    </line>
+    <line>
+      <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\createSiteUserGroupVisit29_Jul_2016_11_17_31AM.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54124" started-at="2016-07-29T05:46:37Z" finished-at="2016-07-29T05:47:31Z">
+    <groups>
+    </groups>
+    <test name="Test run on chrome" duration-ms="54124" started-at="2016-07-29T05:46:37Z" finished-at="2016-07-29T05:47:31Z">
+      <class name="com.Test.StudyConfigurationTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="openBrowser" is-config="true" duration-ms="14013" started-at="2016-07-29T11:16:37Z" finished-at="2016-07-29T11:16:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.1.154/Aetiol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="verifyLogin" duration-ms="3190" started-at="2016-07-29T11:16:51Z" description="1. Type valid credentials&lt;br&gt;2. Click on login button" data-provider="credentialsProvider" finished-at="2016-07-29T11:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akshi@2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="studyConfiguration()[pri:1, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="studyConfiguration" duration-ms="242" started-at="2016-07-29T11:16:54Z" finished-at="2016-07-29T11:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyConfiguration -->
+        <test-method status="PASS" signature="createStudy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="createStudy" duration-ms="10232" started-at="2016-07-29T11:16:54Z" description="1. Click on User&lt;br&gt;2. Click on Define User&lt;br&gt;3. Click on Add Communication Group" data-provider="CreateStudy" finished-at="2016-07-29T11:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scurvey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ishan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Catalent, Emergent Bio solutions ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cosmo Pharmaceuticals]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[(UTC-07:00) Arizona]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ Act5682122]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[The glucose tolerance test is a medical test in which glucose is given and blood samples taken afterward to determine how quickly it is cleared from the blood]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Online]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Automatic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStudy -->
+        <test-method status="PASS" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="1112" started-at="2016-07-29T11:17:05Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scurvey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="59" started-at="2016-07-29T11:17:06Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:06Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="52" started-at="2016-07-29T11:17:06Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:06Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="26" started-at="2016-07-29T11:17:06Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:06Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="44" started-at="2016-07-29T11:17:06Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:06Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_06AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="24" started-at="2016-07-29T11:17:07Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="18" started-at="2016-07-29T11:17:07Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="52" started-at="2016-07-29T11:17:07Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="18" started-at="2016-07-29T11:17:07Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="selectStudyDropdown(java.lang.String)[pri:3, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="selectStudyDropdown" duration-ms="20" started-at="2016-07-29T11:17:07Z" description="1. Select change study dropdown&lt;br&gt;2. Click on study" data-provider="StudyDD" finished-at="2016-07-29T11:17:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:196)
+	at com.GenericLib.ActionDriver.selectDropDown(ActionDriver.java:97)
+	at com.Pages.StudyConfiguration.clickSelectStudyDropdown(StudyConfiguration.java:59)
+	at com.Test.StudyConfigurationTest.selectStudyDropdown(StudyConfigurationTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>1. Select change study dropdown<br>2. Click on study]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\selectStudyDropdown29_Jul_2016_11_17_07AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectStudyDropdown -->
+        <test-method status="FAIL" signature="createSiteUserGroupVisit()[pri:4, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="createSiteUserGroupVisit" duration-ms="23236" started-at="2016-07-29T11:17:07Z" finished-at="2016-07-29T11:17:31Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'jade031', ip: '192.168.1.31', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: ActionDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'jade031', ip: '192.168.1.31', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: driver.version: ActionDriver
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:182)
+	at com.GenericLib.ActionDriver.selectDropDownByIndex(ActionDriver.java:103)
+	at com.Pages.StudyConfiguration.assignUser(StudyConfiguration.java:112)
+	at com.Test.StudyConfigurationTest.createSiteUserGroupVisit(StudyConfigurationTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro Steps</H4><br>null]]>
+            </line>
+            <line>
+              <![CDATA[<br><a href=D:\Aetiol_Automation\com.Aetiol_Automation\test-output\Screenshot\createSiteUserGroupVisit29_Jul_2016_11_17_31AM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createSiteUserGroupVisit -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Test.StudyConfigurationTest@3a5ed7a6]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-07-29T11:17:31Z" finished-at="2016-07-29T11:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Test.StudyConfigurationTest -->
+    </test> <!-- Test run on chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

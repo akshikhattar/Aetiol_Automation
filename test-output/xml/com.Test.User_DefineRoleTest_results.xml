@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test run on chrome"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.456">
+  <properties />
+  
+  
+            <testcase name="verifyLogin" time="6.550" classname="com.Test.User_DefineRoleTest" />
+                <testcase name="defineRolePage" time="0.143" classname="com.Test.User_DefineRoleTest" />
+                <testcase name="addNewRole" time="10.763" classname="com.Test.User_DefineRoleTest" />
+      
+</testsuite>

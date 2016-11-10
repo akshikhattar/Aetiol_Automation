@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="baseURL" value="http://192.168.1.53/Aetiol"/>
+  <parameter name="studyName" value="Audiogram"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="excelLoc" value="/resources/Automation.Data.xls"/>
+  <parameter name="excelSheetCommGp" value="Communication Group"/>
+  <parameter name="excelSheet" value="loginDetails"/>
+  <test name="Test run on chrome(failed)(failed)">
+    <parameter name="baseURL" value="http://192.168.1.53/Aetiol"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Test.User_DefineRoleTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="addCommunicationGroup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.User_DefineRoleTest -->
+    </classes>
+  </test> <!-- Test run on chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

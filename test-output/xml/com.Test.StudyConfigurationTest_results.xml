@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test run on chrome"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="73.181">
+  <properties />
+  
+  
+            <testcase name="createVisit" time="5.684" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="studyConfiguration" time="0.060" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="verifyLogin" time="6.068" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="createGroup" time="3.670" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="createStudy" time="14.383" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="selectStudyDropdown" time="1.646" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="createSite" time="7.174" classname="com.Test.StudyConfigurationTest" />
+                <testcase name="assignUser" time="34.496" classname="com.Test.StudyConfigurationTest" />
+      
+</testsuite>

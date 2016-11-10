@@ -1,0 +1,32 @@
+[0927/130841:ERROR:process_info.cc(608)] range at 0xfed2f000, size 0x230 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfed2e000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfed28000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfed25000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebff000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebfc000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebf9000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebf6000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebf3000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebf0000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebed000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebea000, size 0xf84 fully unreadable
+[0927/130842:ERROR:process_info.cc(608)] range at 0xfebe7000, size 0xf84 fully unreadable
+[1012/132946:ERROR:process_reader_win.cc(173)] ResumeThread: The parameter is incorrect. (0x57)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1012/132946:ERROR:exception_snapshot_win.cc(87)] thread ID 8016 not found in process
+[1012/132946:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1012/132946:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1021/161127:ERROR:process_reader_win.cc(173)] ResumeThread: The parameter is incorrect. (0x57)
+[1021/161128:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1021/161128:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1021/161128:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1021/161128:ERROR:process_reader_win.cc(233)] ReadMemory at 0x3b9f07c of 8 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1021/161128:ERROR:exception_snapshot_win.cc(180)] EXCEPTION_POINTERS read failed
+[1021/161128:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1021/161128:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--<listener class-name="com.Listener.iTestListenerClass" /> --> 	<listeners>
+   	 		<listener class-name="com.Listener.ScreenshotOnFailure" />   	 		
+    		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+    		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  		</listeners> 
+  		<parameter name="excelLoc" value="/resources/Automation.Data.xls"></parameter>
+    	<parameter name="excelSheet" value="loginDetails"></parameter>
+    	<parameter name="excelSheetForgetPswd" value="ForgetPassword"></parameter>
+    	<parameter name="excelSheetCommGp" value="CommunicationGroup"></parameter>
+    	<parameter name="excelSheetDefineRole" value="DefineRole"></parameter>
+    	<parameter name="studyName" value="LFT"></parameter>
+    	<parameter name="excelSheetDefineUser" value="DefineUser"></parameter>
+    	<parameter name="excelSheetCreateStudy" value="CreateStudy"></parameter>
+  		<parameter name="excelSheetCreateCRF" value="createCRF"></parameter>
+ <!--  	<test name="Test run on Firefox">
+    	<parameter name="browser" value="firefox"></parameter>
+    	<parameter name="baseURL" value="http://accutest.aetiol-eclinical.com"></parameter>       
+   	 	<classes>
+   	 	<class name="com.Test.LoginPageTest"></class>  -->
+      	<!-- 	<class name="test.com.LoginPageTest"></class> -->
+      	<!--  <class name="com.Test.Reports_sdsTest"></class> -->
+      <!--	<class name="com.Test.CRFDesignTest">
+  							<methods>
+  								<include name="verifyLogin"/>
+  								<include name="selectStudyDropdown"/>
+  								<exclude name="openCRFPage"/>
+  								<exclude name="createCRF"/>
+  								<exclude name="manageCRF"/>
+  								<exclude name="printEcrf"/>
+  								<exclude name="CDASHVariable"/>
+  								<exclude name="CDASHtabular"/>
+  							</methods>
+  						</class>  
+  						<class name="com.Test.StudyConfigurationTest"></class>	-->
+  				     <!--		<class name="com.Test.PrivilegesTest"></class> 
+    	</classes>
+  	</test> 	-->
+	     <test name="Test run on chrome">      
+  		<parameter name="browser" value="chrome"></parameter>  
+  		<parameter name="baseURL" value="http://192.168.1.51/AetiolTest/"></parameter> 
+  		<parameter name="encoderURL" value="http://192.168.1.51:82/Login/Login"></parameter>  
+  		<classes> <!-- -->
+  				<!--  <class name="com.Test.LoginPageTest"></class>  -->
+  				<!--  <class name="com.Test.ForgetPasswordTest"></class> -->
+  				<!--  <class name="com.Test.HomePageTest"></class>   -->
+  				<!-- In case of delete assigned role exclude defineRolePage method -->
+  		 		<!--  <class name="com.Test.User_DefineRoleTest">
+  							<methods>
+  								<include name="verifyLogin"/>
+  								<include name="defineRolePage"/>
+  								<exclude name="addCommunicationGroup"/>
+  								<exclude name="addCommunicationGroupsCancel"/>
+  								<exclude name="addDuplicateCommGp"/>
+  								<exclude name="blankCommGp"/>
+  								<include name="addNewRole"/>
+  								<exclude name="editRole"/>
+  								<exclude name="deleteRole"/>
+  								<exclude name="deleteAssignedRole"/>
+  								<exclude name="addDuplicateRole"/>			
+  								<exclude name="editAssignedRole"/>
+  								<exclude name="DR_AuditLog"/>
+  								<exclude name="DR_Help"/>
+  								<exclude name="nextButton"/>
+  							</methods>
+  						</class>  -->
+  						<!-- In case of deleteAssignedUser and editAssignedUser exclude defineUserPage -->
+  				<!-- 	<class name="com.Test.User_DefineUserTest">
+  							<methods>
+  								<include name="verifyLogin"/>
+  								<include name="defineUserPage"/>
+  								<exclude name="addUser"/>
+  								<exclude name="deleteUser"/>
+  								<exclude name="editUser"/>
+  								<exclude name="searchUser"/>
+  								<exclude name="addDuplicateUser"/> 
+  								<exclude name="deleteAssignedUser"/>
+  								<include name="editAssignedUser"/>
+  								<exclude name="DU_PreviousBtn"/>
+  								<exclude name="DU_CommGpList"/>
+  								<exclude name="DU_AuditLog"/>
+  								<include name="DU_Help"/>
+  							</methods>
+  					</class> -->
+  				<!-- 		 	<class name="com.Test.StudyConfigurationTest"></class>	 -->
+  				<!-- 
+  						<class name="com.Test.CRFDesignTest">
+  							<methods>
+  								<include name="verifyLogin"/>
+  								<include name="selectStudyDropdown"/>
+  								<include name="openCRFPage"/>
+  								<exclude name="createCRF"/>
+  								<exclude name="manageCRF"/>
+  								<exclude name="printEcrf"/>
+  								<exclude name="CDASHVariable"/>
+  								<include name="CDASHtabular"/>
+  							</methods>
+  						</class>  	-->													
+  				<!--  				<class name="com.Test.ApprovalStepsTest">
+  							<methods>
+  								<include name="verifyLogin"/>
+  								<include name="selectStudyDropdown"/>
+  								<include name="openApprovalStepsPage"/>
+  								<include name="approvalStepsYes"/>
+  								<exclude name="approvalStepsNo"/>  
+   							</methods> 
+  						</class> 	-->										
+  				<!--	<class name="com.Test.QueryMgmtAutomaticTest"></class> 			--> 
+  				<!--	<class name="com.Test.QueryMgmtSkipTest"></class>				-->
+  				<!--  	<class name="com.Test.QueryMgmtCustomTest"></class>				-->
+  				<!-- 	<class name="com.Test.DataEntryTest"></class>					-->
+  				<!--  	<class name="com.Test.MS_DocumentMgmtTest"></class>				-->
+  				<!--  	<class name="com.Test.MS_StudyManagementOptionsTest"></class>	-->
+  				<!-- 	<class name="com.Test.Reports_sdsTest"></class>					-->	
+  				<!-- 	<class name="com.Test.Reports_QueriesRprtTest"></class>	 		-->
+  				<!--  	<class name="com.Test.Reports_AMLRTest"></class>				-->	
+  				<!-- 	<class name="com.Test.Reports_AFSRTest"></class>				--> 	
+  				<!-- 	<class name="com.Test.Reports_AMDRTest"></class>				--> 
+  				<!--  	<class name="com.Test.ExportTest"></class>						-->
+  				<!--  	<class name="com.Test.ApprovalStepsSDVTest"></class>			-->
+  				<!-- 	<class name="com.Test.PrivilegesTest"></class> 					-->
+  				<!-- 	<class name="com.Test.Test2"></class> 							-->
+  				<!--  -->	<class name="com.Test.EncoderTest"></class>						
+  				<!-- -->			<class name="com.Test.EncoderLoginTest"></class>				 
+  		</classes>  
+  	</test> 
+ <!-- 	<test name="Test run on Internet Explorer">
+    	<parameter name="browser" value="ie"></parameter>
+    	<parameter name="baseURL" value="http://192.168.1.154/aetiol"></parameter>       
+   	 	<classes>
+   	 		<class name="com.Test.EncoderTest"></class>
+   	 		
+    	</classes>
+  	</test> -->
+</suite> <!-- Suite -->
+
+
+ 

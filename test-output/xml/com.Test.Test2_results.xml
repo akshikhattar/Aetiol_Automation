@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test run on chrome"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.815">
+  <properties />
+  
+  
+            <testcase name="verifyLogin" time="2.039" classname="com.Test.Test2" />
+                <testcase name="defineUserPage" time="3.776" classname="com.Test.Test2" />
+      
+</testsuite>

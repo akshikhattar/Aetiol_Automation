@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test run on chrome"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.726">
+  <properties />
+  
+  
+            <testcase name="openReports" time="0.589" classname="com.Test.Reports_sdsTest" />
+                <testcase name="verifyLogin" time="9.692" classname="com.Test.Reports_sdsTest" />
+                <testcase name="selectStudyDropdown" time="7.513" classname="com.Test.Reports_sdsTest" />
+                <testcase name="documentMGMT" time="4.932" classname="com.Test.Reports_sdsTest" />
+      
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="excelSheetDefineRole" value="DefineRole"/>
+  <parameter name="excelSheetCreateStudy" value="CreateStudy"/>
+  <parameter name="baseURL" value="http://192.168.1.154/Aetiol"/>
+  <parameter name="excelSheetForgetPswd" value="ForgetPassword"/>
+  <parameter name="excelSheetDefineUser" value="DefineUser"/>
+  <parameter name="studyName" value="Cough and Cold"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="excelLoc" value="/resources/Automation.Data.xls"/>
+  <parameter name="excelSheetCommGp" value="CommunicationGroup"/>
+  <parameter name="excelSheetCreateCRF" value="createCRF"/>
+  <parameter name="excelSheet" value="loginDetails"/>
+  <listeners>
+    <listener class-name="com.Listener.ScreenshotOnFailure"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="Test run on chrome(failed)">
+    <parameter name="baseURL" value="http://192.168.1.154/Aetiol"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Test.StudyConfigurationTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="createSiteUserGroupVisit"/>
+          <include name="selectStudyDropdown" invocation-numbers="1 2 3 4 5 6 7 8 9"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.StudyConfigurationTest -->
+    </classes>
+  </test> <!-- Test run on chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

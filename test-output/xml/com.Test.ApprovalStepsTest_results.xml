@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test run on chrome"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="43.577">
+  <properties />
+  
+  
+            <testcase name="approvalStepsYes" time="28.867" classname="com.Test.ApprovalStepsTest" />
+                <testcase name="selectStudyDropdown" time="1.676" classname="com.Test.ApprovalStepsTest" />
+                <testcase name="openApprovalStepsPage" time="6.135" classname="com.Test.ApprovalStepsTest" />
+                <testcase name="verifyLogin" time="6.899" classname="com.Test.ApprovalStepsTest" />
+      
+</testsuite>

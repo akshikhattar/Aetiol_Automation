@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test run on chrome"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.840">
+  <properties />
+  
+  
+            <testcase name="DataEntryFillForm" time="18.559" classname="com.Test.EncoderTest" />
+                <testcase name="mapCRF" time="14.272" classname="com.Test.EncoderTest" />
+                <testcase name="verifyLogin" time="12.650" classname="com.Test.EncoderTest" />
+                <testcase name="DataEntry" time="15.598" classname="com.Test.EncoderTest" />
+                <testcase name="openCRF" time="7.561" classname="com.Test.EncoderTest" />
+                <testcase name="createCRFPage" time="32.873" classname="com.Test.EncoderTest" />
+                <testcase name="manageCRF" time="1.327" classname="com.Test.EncoderTest" />
+      
+</testsuite>
